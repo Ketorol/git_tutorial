@@ -1,6 +1,8 @@
 a = int(input())
-b = int(input())
-def multiply (a, b):
-    return a * b
-z = multiply (a, b)
-print (z)
+z = int(input())
+def sum_num (a, z):
+    return a + z
+
+
+j = sum_num(a, z)
+print (j)
